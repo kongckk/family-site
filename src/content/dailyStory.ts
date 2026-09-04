@@ -9,25 +9,24 @@ export type DailyStory = {
 
 /**
  * One top story for teens — curious, calm, educational.
- * Topic: 2026 Strait of Hormuz / Iran conflict oil supply crisis.
+ * Topic: 2026 "supersized" El Niño / WMO extreme-weather warning.
  */
 export const dailyStory: DailyStory = {
   headline:
-    "Six months into the Iran war, almost half of global oil flows from war zones",
-  sourceName: "Reuters",
-  sourceUrl:
-    "https://www.reuters.com/business/energy/six-months-into-iran-war-almost-half-global-oil-flows-war-zones-2026-08-25/",
-  dateLabel: "25 August 2026",
+    "UN warns of a 'supersized' El Niño as extreme weather spreads worldwide",
+  sourceName: "BBC News",
+  sourceUrl: "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo",
+  dateLabel: "3 September 2026",
   summary: [
-    "About six months after fighting flared between Iran and a U.S.–Israel coalition, energy markets are still under strain. Reuters calculations show that countries affected by conflict now account for more than 40% of the world’s oil production — a bigger share than in earlier energy crises. Much of the trouble runs through one narrow waterway: the Strait of Hormuz.",
-    "The Strait of Hormuz sits between Iran and the Arabian Peninsula. In normal times, roughly a fifth of the world’s oil — and a large slice of liquefied natural gas — passes through it on tankers. When traffic is blocked or slowed by military action, ships take longer routes or sit idle, and less fuel reaches buyers on schedule.",
-    "That matters far beyond the Middle East. Oil and gas feed transport, heating, plastics, and fertiliser. When supply is tight or expensive, the cost can show up in petrol at the pump, electricity bills, and even food prices. Geography is not just a map fact — it is a real chokepoint in how daily life gets powered.",
+    "The United Nations says the world has entered a \"danger zone of extreme weather\" as a powerful El Niño builds across the Pacific. The World Meteorological Organization reports it could be the strongest in more than 70 years and may last until at least February 2027. El Niño is a natural pattern: warmer Pacific waters shift wind and rain around the planet, so some places get droughts while others face heavier storms and floods.",
+    "Forecasts point to drier conditions across large parts of South East Asia, Central America, and northern South America — raising wildfire and drought risk. Indonesia is already fighting large dry-season fires. Meanwhile, wetter weather is expected in places such as eastern Africa, southern Brazil, and parts of the southern United States, which can mean flooding and landslides. China has also linked a busy typhoon season to this super El Niño.",
+    "Scientists stress that El Niño sits on top of long-term human-caused warming, which can make heat and extremes worse. Countries are strengthening early-warning systems, medical readiness, and trade plans — for example, Panama is reducing canal ship traffic as rainfall drops. Understanding this one ocean pattern helps explain why weather news can feel connected across continents.",
   ],
   keyImplications: [
-    "Fuel and food prices can rise when oil routes are disrupted — even if you live thousands of kilometres away.",
-    "A few narrow sea lanes (like Hormuz) act as global trade chokepoints; blocking them hits many countries at once.",
-    "Geography shapes power and prices: where oil is produced and how it travels still matter in 2026.",
-    "Conflicts abroad can show up in ordinary life through energy costs, shipping delays, and inflation.",
-    "Understanding maps and supply chains helps you read the news with clearer eyes.",
+    "One Pacific climate pattern can reshape rain, heat, and storms for billions of people at once.",
+    "South East Asia may see drier months — wildfire smoke, water stress, and hotter days become more likely.",
+    "Extreme weather abroad can still affect you through food prices, shipping delays, and global supply chains.",
+    "Early warnings and preparation matter more than panic: forecasts give communities time to act.",
+    "Climate literacy helps you read maps and headlines — geography is part of how daily life stays safe.",
   ],
 };
