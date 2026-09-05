@@ -9,24 +9,24 @@ export type DailyStory = {
 
 /**
  * One top story for teens — curious, calm, educational.
- * Topic: 2026 "supersized" El Niño / WMO extreme-weather warning.
+ * Topic: 17-year-old completes century-old catalogue of noble polyhedra.
  */
 export const dailyStory: DailyStory = {
   headline:
-    "UN warns of a 'supersized' El Niño as extreme weather spreads worldwide",
-  sourceName: "BBC News",
-  sourceUrl: "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo",
-  dateLabel: "3 September 2026",
+    "17-year-old maps 85 missing mathematical shapes — and finishes a 150-year puzzle",
+  sourceName: "ZME Science",
+  sourceUrl: "https://www.zmescience.com/science/connor-hill-missing-math/",
+  dateLabel: "6 September 2026",
   summary: [
-    "The United Nations says the world has entered a \"danger zone of extreme weather\" as a powerful El Niño builds across the Pacific. The World Meteorological Organization reports it could be the strongest in more than 70 years and may last until at least February 2027. El Niño is a natural pattern: warmer Pacific waters shift wind and rain around the planet, so some places get droughts while others face heavier storms and floods.",
-    "Forecasts point to drier conditions across large parts of South East Asia, Central America, and northern South America — raising wildfire and drought risk. Indonesia is already fighting large dry-season fires. Meanwhile, wetter weather is expected in places such as eastern Africa, southern Brazil, and parts of the southern United States, which can mean flooding and landslides. China has also linked a busy typhoon season to this super El Niño.",
-    "Scientists stress that El Niño sits on top of long-term human-caused warming, which can make heat and extremes worse. Countries are strengthening early-warning systems, medical readiness, and trade plans — for example, Panama is reducing canal ship traffic as rainfall drops. Understanding this one ocean pattern helps explain why weather news can feel connected across continents.",
+    "Connor Hill, a 17-year-old from Pennsylvania, just won the top prize at the 2026 Regeneron Science Talent Search for something that sounds almost like a video-game quest: finishing a list of special 3D shapes that mathematicians started in the 1870s. The shapes are called noble polyhedra — solids where every face is treated the same by symmetry, and every corner is too. Cubes count. So do wilder star-shaped figures whose faces can pass through one another.",
+    "By 2020, researchers had found two infinite families of these shapes plus 61 one-off examples, but nobody knew if the catalogue was complete. Hill wrote computer programs that turned the endless geometric hunt into a finite set of algebra problems, then proved that — beyond those two infinite families — exactly 146 noble polyhedra exist under his rules. That means he added 85 shapes to the published list and argued that none are left to discover.",
+    "His 34-page preprint is on arXiv, and he released the code and 3D models so other mathematicians can check the work. He plans to study computational mathematics at MIT. The story is a reminder that big open questions in math aren't only for professors — careful thinking plus code can still crack problems that sat unfinished for generations.",
   ],
   keyImplications: [
-    "One Pacific climate pattern can reshape rain, heat, and storms for billions of people at once.",
-    "South East Asia may see drier months — wildfire smoke, water stress, and hotter days become more likely.",
-    "Extreme weather abroad can still affect you through food prices, shipping delays, and global supply chains.",
-    "Early warnings and preparation matter more than panic: forecasts give communities time to act.",
-    "Climate literacy helps you read maps and headlines — geography is part of how daily life stays safe.",
+    "Some \"impossible\" math problems become solvable when you reframe them — Hill swapped endless 3D searching for finite algebra.",
+    "Computers don't replace proof; they help check huge cases so humans can finish the argument.",
+    "Sharing code and models lets the community verify a claim — science is a team sport, even for solo projects.",
+    "Teenagers can contribute to real research when curiosity meets persistence and the right tools.",
+    "Geometry isn't just school homework: symmetry ideas show up in chemistry, materials, graphics, and design.",
   ],
 };

@@ -13,7 +13,7 @@ export type CalendarDay = {
 
 /** Today's agenda from Google Calendar (Asia/Singapore). Titles + times only. */
 export const todayCalendar: CalendarDay = {
-  dateLabel: "Saturday 5 September 2026",
+  dateLabel: "Sunday 6 September 2026",
   timezone: "Asia/Singapore",
   events: [],
 };
