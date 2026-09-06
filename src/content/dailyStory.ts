@@ -9,24 +9,25 @@ export type DailyStory = {
 
 /**
  * One top story for teens — curious, calm, educational.
- * Topic: 17-year-old completes century-old catalogue of noble polyhedra.
+ * Topic: Isar Aerospace Spectrum reaches orbit from Norway.
  */
 export const dailyStory: DailyStory = {
   headline:
-    "17-year-old maps 85 missing mathematical shapes — and finishes a 150-year puzzle",
-  sourceName: "ZME Science",
-  sourceUrl: "https://www.zmescience.com/science/connor-hill-missing-math/",
-  dateLabel: "6 September 2026",
+    "German startup sends Europe’s first fully commercial rocket to orbit — from Arctic Norway",
+  sourceName: "Ars Technica",
+  sourceUrl:
+    "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+  dateLabel: "7 September 2026",
   summary: [
-    "Connor Hill, a 17-year-old from Pennsylvania, just won the top prize at the 2026 Regeneron Science Talent Search for something that sounds almost like a video-game quest: finishing a list of special 3D shapes that mathematicians started in the 1870s. The shapes are called noble polyhedra — solids where every face is treated the same by symmetry, and every corner is too. Cubes count. So do wilder star-shaped figures whose faces can pass through one another.",
-    "By 2020, researchers had found two infinite families of these shapes plus 61 one-off examples, but nobody knew if the catalogue was complete. Hill wrote computer programs that turned the endless geometric hunt into a finite set of algebra problems, then proved that — beyond those two infinite families — exactly 146 noble polyhedra exist under his rules. That means he added 85 shapes to the published list and argued that none are left to discover.",
-    "His 34-page preprint is on arXiv, and he released the code and 3D models so other mathematicians can check the work. He plans to study computational mathematics at MIT. The story is a reminder that big open questions in math aren't only for professors — careful thinking plus code can still crack problems that sat unfinished for generations.",
+    "On 5 September 2026, a slim white rocket called Spectrum lifted off from Andøya Spaceport in northern Norway — above the Arctic Circle — and reached orbit about seven minutes later. The company behind it, Isar Aerospace, was founded in 2018 by three students at a German university. This was only the rocket’s second flight; the first one in March 2025 failed less than a minute after liftoff.",
+    "Spectrum is a two-stage, privately built launcher about 28 metres tall. It burns propane and liquid oxygen in nine Aquila engines on the first stage, then a vacuum-optimised engine on the upper stage. After circling into a higher orbit, it deployed five CubeSats (plus a science experiment that stayed attached) — real payloads on a return-to-flight mission.",
+    "Why it matters: Europe has launched satellites for decades, but mostly from places like French Guiana or with government-led rockets. This flight is the first fully commercial European rocket to reach orbit from Western European soil. Geography helps too — Arctic Norway is a great launch pad for polar and Earth-observation satellites. One success doesn’t mean routine flights yet, but it shows a new generation of European startups can compete in the small-satellite launch race.",
   ],
   keyImplications: [
-    "Some \"impossible\" math problems become solvable when you reframe them — Hill swapped endless 3D searching for finite algebra.",
-    "Computers don't replace proof; they help check huge cases so humans can finish the argument.",
-    "Sharing code and models lets the community verify a claim — science is a team sport, even for solo projects.",
-    "Teenagers can contribute to real research when curiosity meets persistence and the right tools.",
-    "Geometry isn't just school homework: symmetry ideas show up in chemistry, materials, graphics, and design.",
+    "Failure isn’t the end of a rocket programme — diagnosing what went wrong and flying again is how launch companies grow up.",
+    "Where you launch from shapes what orbits you can reach; polar routes from Norway suit Earth-watching satellites.",
+    "Commercial competition can give countries more independent ways to put satellites in space, not just one big national rocket.",
+    "Small satellites (CubeSats) need affordable rides — dedicated small rockets try to offer schedule control that huge rideshare flights can’t.",
+    "STEM careers aren’t only at NASA or ESA agencies: university founders and private engineering teams are rewriting spaceflight.",
   ],
 };
