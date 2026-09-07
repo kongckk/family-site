@@ -9,25 +9,25 @@ export type DailyStory = {
 
 /**
  * One top story for teens — curious, calm, educational.
- * Topic: Isar Aerospace Spectrum reaches orbit from Norway.
+ * Topic: Generative AI homework boost vs exam learning penalty.
  */
 export const dailyStory: DailyStory = {
   headline:
-    "German startup sends Europe’s first fully commercial rocket to orbit — from Arctic Norway",
-  sourceName: "Ars Technica",
+    "Homework grades went up with AI — exam scores went down. A huge study of 26,000 teens explains why",
+  sourceName: "NewsGram",
   sourceUrl:
-    "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
-  dateLabel: "7 September 2026",
+    "https://www.newsgram.com/education/2026/09/07/ai-homework-scores-exam-performance-study-china",
+  dateLabel: "8 September 2026",
   summary: [
-    "On 5 September 2026, a slim white rocket called Spectrum lifted off from Andøya Spaceport in northern Norway — above the Arctic Circle — and reached orbit about seven minutes later. The company behind it, Isar Aerospace, was founded in 2018 by three students at a German university. This was only the rocket’s second flight; the first one in March 2025 failed less than a minute after liftoff.",
-    "Spectrum is a two-stage, privately built launcher about 28 metres tall. It burns propane and liquid oxygen in nine Aquila engines on the first stage, then a vacuum-optimised engine on the upper stage. After circling into a higher orbit, it deployed five CubeSats (plus a science experiment that stayed attached) — real payloads on a return-to-flight mission.",
-    "Why it matters: Europe has launched satellites for decades, but mostly from places like French Guiana or with government-led rockets. This flight is the first fully commercial European rocket to reach orbit from Western European soil. Geography helps too — Arctic Norway is a great launch pad for polar and Earth-observation satellites. One success doesn’t mean routine flights yet, but it shows a new generation of European startups can compete in the small-satellite launch race.",
+    "Researchers tracked 26,811 students aged 12–18 in China for about 30 months — homework, monthly closed-book tests, and high-stakes entrance exams across nine subjects. The paper is called “The Generative AI Learning Penalty: Evidence From Chinese Secondary Education” (reported June 2026; covered this week).",
+    "After six months of generative AI use, average homework scores rose about 18%, and time per assignment fell from roughly 64 minutes to 45. On exams without AI, those same students scored about 20% lower than peers who weren’t using AI the same way. Over about two years, big entrance-exam scores fell by roughly 18–24%.",
+    "The pattern isn’t “AI is evil” — it’s how you use it. Most of the exam drop came from students who finished fast with high homework scores (skipping the hard thinking). Students who still spent real time and effort, even with AI nearby, barely saw a penalty. Homework started looking better while real practice quietly disappeared.",
   ],
   keyImplications: [
-    "Failure isn’t the end of a rocket programme — diagnosing what went wrong and flying again is how launch companies grow up.",
-    "Where you launch from shapes what orbits you can reach; polar routes from Norway suit Earth-watching satellites.",
-    "Commercial competition can give countries more independent ways to put satellites in space, not just one big national rocket.",
-    "Small satellites (CubeSats) need affordable rides — dedicated small rockets try to offer schedule control that huge rideshare flights can’t.",
-    "STEM careers aren’t only at NASA or ESA agencies: university founders and private engineering teams are rewriting spaceflight.",
+    "A high homework mark can hide weak understanding if a tool did the thinking for you.",
+    "Closed-book exams still measure what stuck in your head when the chatbot isn’t there.",
+    "Using AI as a tutor (explain, quiz, check) is different from using it as an answer machine.",
+    "Schools may lean more on in-class work, oral checks, and process — not just take-home scores.",
+    "Protecting your own practice time is a skill: speed isn’t the same as learning.",
   ],
 };
